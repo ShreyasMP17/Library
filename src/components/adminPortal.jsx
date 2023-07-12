@@ -1,5 +1,4 @@
 import { Routes,Route } from "react-router-dom";
-
 import AddBook from "./addBook";
 import AddUser from "./addUser";
 import AdminDashboard from "./adminDashboard";
@@ -19,7 +18,6 @@ const AdminPortal = () => {
                 <Route path="/book-list/:id" element={<ReadBook/>}/>
                 <Route path="/add-book" element={<AddBook/>}/>
                 <Route path="/add-user" element={<AddUser/>}/>
-                
             </Routes>
         </div>
      );
