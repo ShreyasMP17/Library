@@ -9,7 +9,7 @@ const AdminLogin = () => {
 
         //admin validation
         if(email=="admin@gmail.com" && password == 1234){
-            navigate('/library/admin')
+            navigate('/admin')
         }else{
             alert("Invalid credentials")
         }
