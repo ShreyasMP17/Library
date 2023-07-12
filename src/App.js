@@ -10,12 +10,13 @@ function App() {
   return (
       <div className="App">
         <BrowserRouter>
+
         <Routes>
           <Route path="/library/" element={<LandingPage/>} />
-          <Route path="/admin-login" element={<AdminLogin/>} />
-          <Route path="/user-login" element={<UserLogin/>}/>
-          <Route path="/admin/*" element={<AdminPortal/>}/>
-          <Route path="/user/*" element={<UserPortal/>}/>
+          <Route path="/library/admin-login" element={<AdminLogin/>} />
+          <Route path="/library/user-login" element={<UserLogin/>}/>
+          <Route path="/library/admin/*" element={<AdminPortal/>}/>
+          <Route path="/library/user/*" element={<UserPortal/>}/>
         </Routes>
         </BrowserRouter>
 

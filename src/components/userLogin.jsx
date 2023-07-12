@@ -4,7 +4,7 @@ import "../styles/userLogin.css"
 const UserLogin = () => {
     let navigate = useNavigate()
     let login = () => {
-        navigate('/user/')
+        navigate('/library/user/')
     }
     return (
         <div className="userLogin">
