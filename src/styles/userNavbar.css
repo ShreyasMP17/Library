@@ -9,7 +9,7 @@
 .userNavbar{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.557);
+    background-color: rgba(0, 0, 0, 0.424);
 }
 
 .userNavbar a{
@@ -78,7 +78,11 @@ font-size: 20px;
     .userNavbar{
         padding-left: 140px;
         padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
+
+    
     
     .userNavbar a{
         margin-right: 0px;
