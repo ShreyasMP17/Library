@@ -11,7 +11,7 @@ const AdminNavbar = () => {
                     <Link to="/admin/add-user"href="">Add User</Link>
                     <Link to="/admin/book-list" href="">Book List</Link>
                     <Link to="/admin/user-list" href="">User List</Link>
-                    <Link to="/admin/" href="" ><b>Logout</b></Link>
+                    <Link to="/library/" href="" ><b>Logout</b></Link>
                     
                </div>
           </div>

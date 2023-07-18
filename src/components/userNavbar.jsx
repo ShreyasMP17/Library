@@ -8,7 +8,7 @@ const UserNavbar = () => {
                 <p> <b> User Portal</b></p>
                 <Link to="/user/"> Home</Link>
                 <Link to="/user/book-list" href="">Book List</Link>
-                <Link to="/user/" href="" id="onee"><b>Logout</b></Link>
+                <Link to="/library/" href="" id="onee"><b>Logout</b></Link>
             </div>
         </div>
     );
