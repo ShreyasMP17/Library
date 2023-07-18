@@ -9,7 +9,7 @@
 .adminNavbar{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.557);
+    background-color:rgba(0, 0, 0, 0.424);
 }
 
 .adminNavbar a{
@@ -76,7 +76,7 @@ font-size: 20px;
         
     }
     .adminNavbar{
-        padding: 7px 8px;
+        padding: 10px 10px;
     }
     
     .adminNavbar a{
