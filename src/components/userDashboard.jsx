@@ -1,42 +1,40 @@
 import "../styles/userDashboard.css"
 const UserDashboard = () => {
     return ( 
-        <div className="userDashboard">
-            <div className="boxx">
-            <div className="box33">
-                    <div className="box_img3"></div>
-                        
-                        <div className="txt33">
-                        <h1>Heritage with Hoopla</h1>
-                            <p>On Wednesday, January 18 at 2:00 pm, join us as we wander through Hoopla's "Discovering Your Roots: An Introduction to Genealogy" using The Great Courses series.</p>
-                            <a href="">Make Your Calendar ></a>
-                        </div>
-                </div>
-                    <div className="box22">
-                        <div className="txt22">
-                            <h1>Learning Lab</h1>
-                            <p>The mission of the Library’s Learning Lab is to create an environment in which Greenwich Library staff and patrons can empower themselves with a practical understanding of current technology.</p>
-                        </div>
-                </div>
-                    <div className="box11">
-                    <div className="box_img"></div>
-                        
-                        <div className="txt">
-                            <h2>LEARN</h2>
-                            <h1>LinkedIn Learning</h1>
-                            <p>LinkedIn Learning (formerly Lynda) is an online educational site that features thousands of courses and video tutorials where you can discover, complete, and track courses related to your industry or interests.</p>
-                            <a href="">Get Started > </a>
-                        </div>
-                </div>
-                <div className="box44">
-                        <div className="txt44">
-                            <h1>Learn Something New or Get Tech Help</h1>
-                            <p>Register on the online calendar. For more information call (203) 622-7920.</p>
-                            <a href="">View Calendar ></a>
-                        </div>
-                </div>
+        <div className="adminDashboard">
+        <div className="box">
+            <div className="box1">
+                <div className="box_img0"></div>
+                    
+                    <div className="text">
+                        <h1>Signature Series: In the News </h1><h1> with Fareed Zakaria</h1>
+                        <h4>By Erika Berlin on January 11,2023 </h4>
+                        <p>Greenwich Library’s Signature Series is pleased to welcome bestselling author and journalist Fareed Zakaria to the Library’s Berkley Theater on Thursday,…</p>
+                        <a href="">Take a look</a>
+                    </div>
+            </div>
+            <div className="box1">
+                <div className="box_img0"></div>
+                    
+                    <div className="text">
+                        <h1>At the Library this January …</h1>
+                        <h4>By Erika Berlin on December 29,2022 </h4>
+                        <p>Greenwich Library has a full schedule of (free!) enrichment events throughout January. Speak with a librarian or check the online…</p>
+                        <a href="">Take a look</a>
+                    </div>
+            </div>
+            <div className="box1">
+                <div className="box_img0"></div>
+                    
+                    <div className="text">
+                        <h1>Friends Friday Films Announces </h1><h1>Its Winter Screenings</h1>
+                        <h4>By Erika Berlin on December 28,2022 </h4>
+                        <p>Greenwich Library’s longest-running program—the Friends Friday Films series—is back with a full slate of movies, beginning on January 6. The…</p>
+                        <a href="">Take a look</a>
+                    </div>
             </div>
         </div>
+    </div>
      );
 }
  

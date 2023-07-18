@@ -22,7 +22,7 @@ const AdminLogin = () => {
         <div className="adminLogin">
             <div className="back">
             <div className="form_container">
-                <h1>Login as Admin</h1>
+                <h1 id="size">Login as Admin</h1>
                 <div className="form_input">
                     <form onSubmit={login}>
                         <div className="email">

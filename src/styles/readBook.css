@@ -17,3 +17,40 @@
     font-size: 23px;
     margin: 0px 30px 30px 30px;
 }
+
+@media only screen and (max-width:920px){
+    
+
+}
+@media only screen and (max-width:720px){
+    .card{
+        
+        margin: 8px;
+    }
+    .readBook h2{
+        margin-bottom: 20px;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .card_footer p{
+        font-size: 17px;
+        margin: 0px 15px 15px 15px;
+    }
+    
+}
+@media only screen and (max-width:620px){
+    .card{
+        
+        margin: 5px;
+    }
+    .readBook h2{
+        margin-bottom: 10px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .card_footer p{
+        font-size: 15px;
+        margin: 0px 10px 10px 10px;
+    }
+
+}

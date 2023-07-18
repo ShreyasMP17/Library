@@ -68,3 +68,97 @@ margin-left: 30px;
 .thumbnailUrl{
 margin-left: 50px;
 }
+
+@media only screen and (max-width:920px){
+    .title{
+        margin-left: 10px;
+       }
+       .category{
+       margin-left: 10px;
+       }
+       .authors{
+       margin-left: 10px;
+       }
+       .pageCount{
+       margin-left:10px;
+       }
+       .shortDescription{
+        margin-left: 10px;
+       }
+       .longDescription{
+       margin-left: 10px;
+       }
+       .thumbnailUrl{
+       margin-left: 10px;
+       }
+       .form button{
+        margin-left: 120px;
+        margin-top: 30px;
+       }
+       .form input{
+        padding-right: 30px;
+        padding-top: 0px;
+       }
+}
+@media only screen and (max-width:720px){
+    .title{
+        margin-left: 10px;
+       }
+       .category{
+       margin-left: 10px;
+       }
+       .authors{
+       margin-left: 10px;
+       }
+       .pageCount{
+       margin-left:10px;
+       }
+       .shortDescription{
+        margin-left: 10px;
+       }
+       .longDescription{
+       margin-left: 10px;
+       }
+       .thumbnailUrl{
+       margin-left: 10px;
+       }
+       .form button{
+        margin-left: 120px;
+        margin-top: 30px;
+       }
+       .form input{
+        padding-right: 30px;
+        padding-top: 0px;
+       }
+}
+@media only screen and (max-width:620px){
+    .title{
+        margin-left: 10px;
+       }
+       .category{
+       margin-left: 10px;
+       }
+       .authors{
+       margin-left: 10px;
+       }
+       .pageCount{
+       margin-left:10px;
+       }
+       .shortDescription{
+        margin-left: 10px;
+       }
+       .longDescription{
+       margin-left: 10px;
+       }
+       .thumbnailUrl{
+       margin-left: 10px;
+       }
+       .form button{
+        margin-left: 120px;
+        margin-top: 30px;
+       }
+       .form input{
+        padding-right: 30px;
+        padding-top: 0px;
+       }
+}

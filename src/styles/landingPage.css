@@ -1,7 +1,6 @@
-* {
+*{
     margin: 0px;
 }
-
 .main {
     background-image: url("28.jpg");
     background-position: center;
@@ -50,9 +49,11 @@
 
 }
 
+
 .selectLogin img {
     padding-right: 100px;
     margin-bottom: 30px;
+    
 }
 
 /* #one {
@@ -66,4 +67,95 @@
 } */
 .new{
     padding-top: 180px;
+}
+
+@media only screen and (max-width:992px){
+    .main{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .landingPage{
+        margin-left: 220px;
+        height: 400px ;
+        width: 480px ;
+        
+    }
+    .selectLogin{
+        margin-left: 80px;
+    }
+    .selectLogin img {
+        padding-right: 70px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        height: 100px;
+        width: 100px;
+    }
+    .landingPage h1{
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:730px){
+    .main{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .landingPage{
+        margin-left: 100px;
+        height: 400px ;
+        width: 400px ;
+        
+    }
+    .selectLogin{
+        margin-left: 80px;
+    }
+    .selectLogin img {
+        padding-right: 70px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        height: 80px;
+        width: 80px;
+    }
+    .landingPage h1{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:560px){
+    .main{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .landingPage{
+        margin: 0px;
+        height: 400px ;
+        width: 100% ;
+        border-radius: 0%;
+    }
+    .selectLogin{
+        margin-left: 70px;
+    }
+    .selectLogin img {
+        padding-right: 70px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        height: 80px;
+        width: 150px;
+    }
+    .landingPage h1{
+        text-align: center;
+    }
+    .selectLogin a{
+        margin-right: 30px;
+        
+    }
 }

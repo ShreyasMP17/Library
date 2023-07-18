@@ -1,3 +1,4 @@
+
 .adminLogin{
     background-image: url("101.jpg");
     background-position: center;
@@ -5,15 +6,16 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
-
 }
+
 .back{
-    background-color: rgba(0, 0, 0, 0.328);
+    background-color: rgba(0, 0, 0, 0);
     height: 100vh;
 }
+
 .form_container{
     padding-top: 220px;
-    padding-right: 200px;
+    padding-left: 500px;
 } 
 .form_container h1{
     color: black;
@@ -37,4 +39,50 @@
     padding: 5px 10px;
     font-size: 20px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width:920px){
+    .adminLogin{
+        width: 100%;
+        
+        background-position: center;
+        background-size: cover;
+    }
+    .form_container{
+       
+       padding-left: 250px;
+       
+    }
+}
+@media only screen and (max-width:720px){
+    .adminLogin{
+        width: 100%;
+        
+        background-position: center;
+        background-size: cover;
+    }
+    .form_container{
+       
+       padding-left: 100px;
+       
+    }
+}
+@media only screen and (max-width:600px){
+    .adminLogin{
+        
+        height: 100vh;
+    }
+    .form_container{
+       
+       padding-left: 0px;
+       padding-right: 0px;
+      
+       
+       
+    }
+    #size{
+        font-size: 25px;
+        
+    }
+    
 }

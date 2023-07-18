@@ -7,10 +7,7 @@
     width: 100%;
 
 }
-.form_container{
-    padding-top: 220px;
-    padding-right: 200px;
-} 
+
 .form_container h1{
     color: rgb(0, 0, 0);
     font-size: 40px;
@@ -34,3 +31,5 @@
     font-size: 20px;
     border-radius: 10px;
 }
+
+
